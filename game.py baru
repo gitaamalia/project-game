@@ -28,6 +28,9 @@ back_image_filename,
      def handle_ball_collisions(self):
      Hit floor
 	if self.ball.top > c.screen_height:
+     self.lives -= 1
+		if self.lives == 0:
+
 
 
       
