@@ -8,3 +8,5 @@
     while True:
     try:
             s = int(input("Masukkan Sisi : "))
+             except ValueError
+            print("Input Tidak Valid")
