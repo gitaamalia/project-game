@@ -1,0 +1,110 @@
+def persegi():
+    while True:
+        try:
+            s = int(input("Masukkan Sisi : "))
+        except ValueError
+            print("Input Tidak Valid")
+        else:
+            luas        = s * s
+            keliling    = 4 * s
+            hasil       = [luas, keliling]
+        break
+    return hasil  
+
+def persegipanjang():
+    while True:
+        try:
+            p = int(input("Masukkan Panjang : "))
+            l = int(input("Masukkan Lebar : "))
+        except ValueError
+            print("Input Tidak Valid")
+        else:
+            luas        = p * l
+            keliling    = 2 * (p + l)
+            hasil       = [luas, keliling]
+        break
+    return hasil 
+
+def segitiga():
+    while True:
+        try:
+            a = int(input("Masukkan Alas : "))
+            t = int(input("Masukkan Tinggi : "))
+        except ValueError
+            print("Input Tidak Valid")
+        else:
+            luas        = 0,5 * a * t
+            keliling    = a + t + t
+            hasil       = [luas, keliling]
+        break
+    return hasil  
+
+def lingkaran():
+    while True:
+        try:
+            r = float(input("Masukkan Jari-Jari : "))
+        except ValueError
+            print("Input Tidak Valid")
+        else:
+            if r % 7 == 0
+                luas        = 22 / 7 * r * r
+                keliling    = 2 * (22 / 7 * r )
+                hasil       = [luas, keliling]
+            else
+                luas        = 3.14 * r * r
+                keliling    = 2 * 3.14 * r 
+                hasil       = [luas, keliling]
+        break
+    return hasil  
+
+def jajargenjang():
+    while True:
+        try:
+            a = int(input("Masukkan Alas : "))
+            t = int(input("Masukkan Tinggi : "))
+        except ValueError
+            print("Input Tidak Valid")
+        else:
+            luas        = a * t
+            keliling    = 2 * (a + t)
+            hasil       = [luas, keliling]
+        break
+    return hasil  
+
+
+print("Pilih Bangun Datar")
+print("1. Persegi")
+print("2. Persegi Panjang")
+print("3. Segitiga")
+print("4. Lingkaran")
+print("5. Jajargenjang")
+
+pilihan = input("Masukkan Pilihan (1/2/3/4/5) : ")
+if pilihan == "1":
+    hasil = persegi()
+    
+    print("Luas Persegi {}".format(hasil[0]))
+    print("Keliling Persegi {}".format(hasil[1]))
+elif pilihan == "2":
+    hasil = persegipanjang()
+    
+    print("Luas Persegipanjang {}".format(hasil[0]))
+    print("Keliling Persegipanjang {}".format(hasil[1]))
+elif pilihan == "3":
+    hasil = segitiga()
+    
+    print("Luas segitiga {}".format(hasil[0]))
+    print("Keliling segitiga {}".format(hasil[1]))
+elif pilihan == "4":
+    hasil = lingkaran()
+    
+    print("Luas lingkaran {}".format(hasil[0]))
+    print("Keliling lingkaran {}".format(hasil[1]))
+elif pilihan == "5:"
+     hasil = jajargenjang()
+    
+    print("Luas jajargenjang {}".format(hasil[0]))
+    print("Keliling jajargenjang {}".format(hasil[1]))
+else:
+    print("Input Tidak Valid")
+
