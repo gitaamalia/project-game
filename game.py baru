@@ -22,4 +22,8 @@ back_image_filename,
  self.surface.blit(self.background_image 
  self.handle_events() self.update() self.draw(
       pygame.display.update()
+      def on_quit(button):
+    self.game_over = True
+	self.is_game_running = False
+
       
