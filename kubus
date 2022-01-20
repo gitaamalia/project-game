@@ -32,3 +32,4 @@
     def segitiga():
       while True:
         try:
+           a = int(input("Masukkan Alas : "))
