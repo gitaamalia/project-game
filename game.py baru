@@ -21,3 +21,5 @@ back_image_filename,
  def on_quit(button
  self.surface.blit(self.background_image 
  self.handle_events() self.update() self.draw(
+      pygame.display.update()
+      
