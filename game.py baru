@@ -31,6 +31,7 @@ back_image_filename,
      self.lives -= 1
 		if self.lives == 0:
           self.game_over = True
+          if not self.bricks
 
 
 
