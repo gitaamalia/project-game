@@ -10,3 +10,4 @@ back_image_filename,
                  frame_rate):
       ...
  self.game_over = False
+ def run(self)
