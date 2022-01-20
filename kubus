@@ -19,3 +19,4 @@
     def persegipanjang():
       while True:
         try:
+          p = int(input("Masukkan Panjang : "))
