@@ -6,3 +6,6 @@ def __init__(self
 caption, 
                  width, 
                  height, 
+back_image_filename, 
+                 frame_rate):
+      ...
