@@ -36,6 +36,12 @@ back_image_filename,
                       self.is_game_running = False
      self.game_over = True     if not self.bricks  
      def show_message(self, 
+     text, 
+                 color=colors.WHITE, 
+                 font_name='anisa', 
+                 font_size=20, 
+                 centralized=False):
+
                  
           
 
