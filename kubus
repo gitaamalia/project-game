@@ -27,3 +27,5 @@
            luas        = p * l
             keliling    = 2 * (p + l)
              hasil       = [luas, keliling]
+             break
+    return hasil 
