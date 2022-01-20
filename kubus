@@ -48,5 +48,8 @@
             r = float(input("Masukkan Jari-Jari : "))
             except ValueError
             print("Input Tidak Valid")
-             else:
+          else:
             if r % 7 == 0
+            luas        = 22 / 7 * r * r
+            keliling    = 2 * (22 / 7 * r )
+            hasil       = [luas, keliling]
