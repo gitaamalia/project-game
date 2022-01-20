@@ -25,5 +25,6 @@ back_image_filename,
       def on_quit(button):
     self.game_over = True
 	self.is_game_running = False
+     def handle_ball_collisions(self):
 
       
