@@ -14,3 +14,5 @@
             luas        = s * s
             keliling    = 4 * s
             hasil       = [luas, keliling]
+            break
+    return hasil 
