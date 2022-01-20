@@ -42,3 +42,5 @@
             hasil       = [luas, keliling]
              break
     return hasil 
+    def lingkaran():
+    while True:
