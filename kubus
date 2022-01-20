@@ -24,3 +24,5 @@
            except ValueError
             print("Input Tidak Valid")
         else:
+           luas        = p * l
+            keliling    = 2 * (p + l)
