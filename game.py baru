@@ -14,3 +14,4 @@ back_image_filename,
  while not self.game_over:
  self.surface.blit(self.background_image, 
  self.handle_events()
+ self.update()
