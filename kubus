@@ -30,3 +30,5 @@
              break
     return hasil 
     def segitiga():
+      while True:
+        try:
