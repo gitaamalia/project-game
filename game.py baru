@@ -26,5 +26,8 @@ back_image_filename,
     self.game_over = True
 	self.is_game_running = False
      def handle_ball_collisions(self):
+     Hit floor
+	if self.ball.top > c.screen_height:
+
 
       
