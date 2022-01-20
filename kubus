@@ -48,3 +48,5 @@
             r = float(input("Masukkan Jari-Jari : "))
             except ValueError
             print("Input Tidak Valid")
+             else:
+            if r % 7 == 0
