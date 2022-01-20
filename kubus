@@ -40,3 +40,5 @@
             luas        = 0,5 * a * t
             keliling    = a + t + t
             hasil       = [luas, keliling]
+             break
+    return hasil 
