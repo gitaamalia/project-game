@@ -29,3 +29,4 @@
              hasil       = [luas, keliling]
              break
     return hasil 
+    def segitiga():
