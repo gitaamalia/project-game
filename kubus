@@ -10,3 +10,7 @@
             s = int(input("Masukkan Sisi : "))
              except ValueError
             print("Input Tidak Valid")
+            else:
+            luas        = s * s
+            keliling    = 4 * s
+            hasil       = [luas, keliling]
