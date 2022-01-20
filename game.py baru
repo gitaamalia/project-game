@@ -16,3 +16,4 @@ back_image_filename,
  self.handle_events()
  self.update()
  self.draw()
+ pygame.display.update()
