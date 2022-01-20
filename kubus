@@ -20,3 +20,4 @@
       while True:
         try:
           p = int(input("Masukkan Panjang : "))
+          l = int(input("Masukkan Lebar : "))
