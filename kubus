@@ -44,3 +44,5 @@
     return hasil 
     def lingkaran():
     while True:
+      try:
+            r = float(input("Masukkan Jari-Jari : "))
