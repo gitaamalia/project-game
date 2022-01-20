@@ -6,3 +6,5 @@
   print('Volume Kubus adalah %0.2f' %volume)
   def persegi():
     while True:
+    try:
+            s = int(input("Masukkan Sisi : "))
