@@ -46,3 +46,5 @@
     while True:
       try:
             r = float(input("Masukkan Jari-Jari : "))
+            except ValueError
+            print("Input Tidak Valid")
