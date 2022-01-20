@@ -17,3 +17,5 @@
             break
     return hasil 
     def persegipanjang():
+      while True:
+        try:
