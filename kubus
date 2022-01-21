@@ -68,3 +68,5 @@ def jajargenjang():
             print("Input Tidak Valid")
             else:
             luas        = a * t
+            keliling    = 2 * (a + t)
+            hasil       = [luas, keliling]
