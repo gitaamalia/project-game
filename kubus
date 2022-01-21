@@ -72,3 +72,4 @@ def jajargenjang():
             hasil       = [luas, keliling]
              break
     return hasil
+    print("Pilih Bangun Datar")
