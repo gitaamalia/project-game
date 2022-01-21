@@ -73,3 +73,4 @@ def jajargenjang():
              break
     return hasil
     print("Pilih Bangun Datar")
+    print("1. Persegi")
