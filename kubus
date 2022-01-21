@@ -70,3 +70,5 @@ def jajargenjang():
             luas        = a * t
             keliling    = 2 * (a + t)
             hasil       = [luas, keliling]
+             break
+    return hasil
