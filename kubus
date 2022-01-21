@@ -66,3 +66,5 @@ def jajargenjang():
             t = int(input("Masukkan Tinggi : "))
              except ValueError
             print("Input Tidak Valid")
+            else:
+            luas        = a * t
