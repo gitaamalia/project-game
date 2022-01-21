@@ -74,3 +74,4 @@ def jajargenjang():
     return hasil
     print("Pilih Bangun Datar")
     print("1. Persegi")
+    print("2. Persegi Panjang")
