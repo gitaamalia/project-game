@@ -64,3 +64,5 @@ def jajargenjang():
         try:
           a = int(input("Masukkan Alas : "))
             t = int(input("Masukkan Tinggi : "))
+             except ValueError
+            print("Input Tidak Valid")
