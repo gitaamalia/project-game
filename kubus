@@ -90,3 +90,4 @@ def jajargenjang():
     print("Keliling Persegipanjang {}".format(hasil[1]))
     elif pilihan == "3":
     hasil = segitiga()
+    print("Luas segitiga {}".format(hasil[0]))
