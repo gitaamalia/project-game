@@ -61,7 +61,9 @@ edge = intersect(brick, self.ball)
     if not edge:
         continue
         special_effects = dict(
-    long_paddle=(
+    long_paddle=(         colors.ORANGE,
+        lambda g: g.paddle.bounds.inflate_ip(
+
 
 
 
