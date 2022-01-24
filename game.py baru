@@ -48,6 +48,7 @@ back_image_filename,
     In config.sounds_effects = dict(
          brick_hit='sound_effects/brick_hit.wav',
          effect_done='sound_effects/effect_done.wav'
+             paddle_hit='sound_effects/paddle_hit.wav'
 
                     
 
