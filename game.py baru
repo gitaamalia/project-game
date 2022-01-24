@@ -69,6 +69,8 @@ edge = intersect(brick, self.ball)
 slow_ball=(
         colors.AQUAMARINE2, lambda g: g.change_ball_speed(-1),
         lambda g: g.change_ball_speed(1)),
+tripple_points=(
+        colors.DARKSEAGREEN4,
 
 
 
