@@ -82,3 +82,4 @@ def jajargenjang():
     pilihan = input("Masukkan Pilihan (1/2/3/4/5) : ")
     if pilihan == "1":
     hasil = persegi()
+     print("Luas Persegi {}".format(hasil[0]))
