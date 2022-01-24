@@ -42,7 +42,7 @@ back_image_filename,
                  font_size=20, 
                  centralized=False):message = TextObject(c.screen_width // 2, 
                          c.screen_height // 2, 
- self.draw()                        
+ self.draw() message.draw(self.surface, centralized                       
 
 
                  
