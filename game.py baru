@@ -45,7 +45,7 @@ back_image_filename,
  self.draw() message.draw(self.surface, centralized   
      pygame.display.update()
     time.sleep(c.message_duration)
-    In config.
+    In config.sounds_effects = dict(
                     
 
 
