@@ -76,7 +76,11 @@ tripple_points=(
     extra_life=(
         colors.GOLD1,
         lambda g: g.add_life(),
-        lambda g: None))
+        lambda g: None)) def create_bricks(self):
+    w = c.brick_width
+    h = c.brick_height
+    brick_count = c.screen_width // (w + 1)
+    offset_x = (c.screen_width - brick_count * (w + 
 
 
 
