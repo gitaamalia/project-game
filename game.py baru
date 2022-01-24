@@ -89,6 +89,9 @@ tripple_points=(
             index = random.randint(0, 10)
             if index < len(special_effects):
                 x = 
+list(special_effects.values())[index]
+                brick_color = x[0]
+                effect = x[1:]
 
 
 
