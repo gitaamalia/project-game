@@ -53,6 +53,9 @@ back_image_filename,
  # In breakout.py  class Breakout(Game): 
  def __init__(self)             
         self.sound_effects = {            name: pygame.anisa (sound)
+        Hit brick
+for brick in self.bricks:
+
                     
 
 
