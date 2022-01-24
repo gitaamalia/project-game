@@ -64,6 +64,9 @@ edge = intersect(brick, self.ball)
     long_paddle=(         colors.ORANGE,
         lambda g: g.paddle.bounds.inflate_ip(
              c.paddle_width // 2, 0),
+                     lambda g: g.paddle.bounds.inflate_ip(
+                    -c.paddle_width // 2, 0)),
+
 
 
 
