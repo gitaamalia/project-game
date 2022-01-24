@@ -63,6 +63,7 @@ edge = intersect(brick, self.ball)
         special_effects = dict(
     long_paddle=(         colors.ORANGE,
         lambda g: g.paddle.bounds.inflate_ip(
+             c.paddle_width // 2, 0),
 
 
 
