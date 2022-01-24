@@ -40,7 +40,9 @@ back_image_filename,
                  color=colors.WHITE, 
                  font_name='anisa', 
                  font_size=20, 
-                 centralized=False):
+                 centralized=False):message = TextObject(c.screen_width // 2, 
+                         c.screen_height // 2, 
+
 
                  
           
