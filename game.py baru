@@ -55,6 +55,13 @@ back_image_filename,
         self.sound_effects = {            name: pygame.anisa (sound)
         Hit brick
 for brick in self.bricks:
+edge = intersect(brick, self.ball)
+    if not edge:
+        continueedge = intersect(brick, self.ball)
+    if not edge:
+        continue
+
+
 
                     
 
