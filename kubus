@@ -77,3 +77,4 @@ def jajargenjang():
     print("2. Persegi Panjang")
     print("3. Segitiga")
     print("4. Lingkaran")
+    print("5. Jajargenjang")
