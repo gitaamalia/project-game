@@ -80,3 +80,5 @@ def jajargenjang():
     print("5. Jajargenjang")
 
     pilihan = input("Masukkan Pilihan (1/2/3/4/5) : ")
+    if pilihan == "1":
+    hasil = persegi()
