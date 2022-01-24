@@ -92,3 +92,5 @@ def jajargenjang():
     hasil = segitiga()
     print("Luas segitiga {}".format(hasil[0]))
     print("Keliling segitiga {}".format(hasil[1]))
+    elif pilihan == "4":
+    hasil = lingkaran()
