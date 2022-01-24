@@ -86,3 +86,4 @@ def jajargenjang():
      print("Keliling Persegi {}".format(hasil[1]))
      elif pilihan == "2":
     hasil = persegipanjang()
+    print("Luas Persegipanjang {}".format(hasil[0]))
