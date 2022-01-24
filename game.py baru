@@ -71,6 +71,12 @@ slow_ball=(
         lambda g: g.change_ball_speed(1)),
 tripple_points=(
         colors.DARKSEAGREEN4,
+        lambda g: g.set_points_per_brick(3),
+        lambda g: g.set_points_per_brick(1)),
+    extra_life=(
+        colors.GOLD1,
+        lambda g: g.add_life(),
+        lambda g: None))
 
 
 
