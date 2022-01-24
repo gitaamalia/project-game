@@ -66,6 +66,8 @@ edge = intersect(brick, self.ball)
              c.paddle_width // 2, 0),
                      lambda g: g.paddle.bounds.inflate_ip(
                     -c.paddle_width // 2, 0)),
+slow_ball=(
+        colors.AQUAMARINE2,
 
 
 
