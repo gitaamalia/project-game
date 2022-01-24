@@ -81,6 +81,14 @@ tripple_points=(
     h = c.brick_height
     brick_count = c.screen_width // (w + 1)
     offset_x = (c.screen_width - brick_count * (w + 
+        bricks = []
+    for row in range(c.row_count):
+        for col in range(brick_count):
+            effect = None
+            brick_color = c.brick_color
+            index = random.randint(0, 10)
+            if index < len(special_effects):
+                x = 
 
 
 
