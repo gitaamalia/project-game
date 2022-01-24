@@ -52,7 +52,7 @@ back_image_filename,
                  level_complete='sound_effects/level_complete.wav',
  # In breakout.py  class Breakout(Game): 
  def __init__(self)             
-        self.sound_effects = {
+        self.sound_effects = {            name: pygame.anisa (sound)
                     
 
 
