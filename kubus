@@ -78,3 +78,5 @@ def jajargenjang():
     print("3. Segitiga")
     print("4. Lingkaran")
     print("5. Jajargenjang")
+
+    pilihan = input("Masukkan Pilihan (1/2/3/4/5) : ")
