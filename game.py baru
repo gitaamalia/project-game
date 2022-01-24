@@ -47,6 +47,7 @@ back_image_filename,
     time.sleep(c.message_duration)
     In config.sounds_effects = dict(
          brick_hit='sound_effects/brick_hit.wav',
+         effect_done='sound_effects/effect_done.wav'
 
                     
 
