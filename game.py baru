@@ -46,6 +46,8 @@ back_image_filename,
      pygame.display.update()
     time.sleep(c.message_duration)
     In config.sounds_effects = dict(
+         brick_hit='sound_effects/brick_hit.wav',
+
                     
 
 
