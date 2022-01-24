@@ -60,6 +60,9 @@ edge = intersect(brick, self.ball)
         continueedge = intersect(brick, self.ball)
     if not edge:
         continue
+        special_effects = dict(
+    long_paddle=(
+
 
 
 
