@@ -99,7 +99,7 @@ tripple_points=(
             effect = None
             brick_color = c.brick_color
             index = random.randint(0, 10)
-            if index < len(special_effects):
+        
 
 
 
