@@ -99,3 +99,4 @@ def jajargenjang():
     elif pilihan == "5:"
      hasil = jajargenjang()
      print("Luas jajargenjang {}".format(hasil[0]))
+     print("Keliling jajargenjang {}".format(hasil[1]))
