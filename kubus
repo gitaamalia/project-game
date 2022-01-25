@@ -98,3 +98,4 @@ def jajargenjang():
     print("Keliling lingkaran {}".format(hasil[1]))
     elif pilihan == "5:"
      hasil = jajargenjang()
+     print("Luas jajargenjang {}".format(hasil[0]))
