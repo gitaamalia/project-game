@@ -89,6 +89,12 @@ tripple_points=(
             index = random.randint(0, 10)
             if index < len(special_effects):
                 x = def create_bricks(self):
+  if brick.special_effect is not None:
+    # Reset previous effect if any
+    if self.reset_effect is not None:
+        self.reset_effect(self)
+
+              
 
 
 
