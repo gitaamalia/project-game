@@ -94,7 +94,7 @@ tripple_points=(
     if self.reset_effect is not None:
         self.reset_effect(self)
 
-              
+                 
 
 
 
