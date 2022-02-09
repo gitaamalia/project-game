@@ -102,3 +102,5 @@ def jajargenjang():
      print("Keliling jajargenjang {}".format(hasil[1]))
      else:
     print("Input Tidak Valid")
+    
+ 
