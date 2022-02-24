@@ -1,7 +1,5 @@
 hello game python 
 hello game nisa 
-tambah
-2 tambah 
 def __init__(self
 caption, 
                  width, 
@@ -88,7 +86,7 @@ tripple_points=(
             brick_color = c.brick_color
             index = random.randint(0, 10)
             if index < len(special_effects):
-            
+
 
 
 
